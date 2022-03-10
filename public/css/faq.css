@@ -1,0 +1,23 @@
+section
+{
+    background: rgb(248, 247, 247);
+}
+.accordion-button{
+    background-color: rgb(248, 247, 247);
+}
+.accordion-body{
+    background-color: rgb(248, 247, 247); 
+}
+.FAQ_title{
+    position: relative;
+    text-align: center;
+}
+.FAQ_title::after{
+content: '';
+position: absolute;
+width: 50px;
+border-bottom: 3px solid rgb(189, 202, 3);
+bottom: -10%;
+left: 50%;
+transform: translateX(-50%);
+}

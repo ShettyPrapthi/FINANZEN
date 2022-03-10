@@ -1,0 +1,19 @@
+{
+  "name": "bugsquash-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "start http://localhost:3000 & npm run dev",
+		"dev": "nodemon index.js",
+		"start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
